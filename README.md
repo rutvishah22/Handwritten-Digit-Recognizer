@@ -7,7 +7,7 @@ You can either **upload an image** or **draw a digit** right on the screen — a
 
 ### 🚀 How It Works
 1. The model was trained on the **MNIST dataset** in Kaggle.  
-2. Once trained, the model was saved as a `.h5` file and used here for prediction.  
+2. Once trained, the model was saved as a `.keras` file and used here for prediction.  
 3. The app uses **Streamlit** for the UI and **streamlit-drawable-canvas** for the drawing area.  
 
 ---
