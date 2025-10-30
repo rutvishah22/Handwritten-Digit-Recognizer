@@ -5,7 +5,8 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 from streamlit_drawable_canvas import st_canvas
 
-model = load_model("digit_recognition_model.h5", compile=False)
+
+model = load_model("digit_recognition_model.keras", compile=False)
 
 st.title("🧠 Handwritten Digit Recognizer")
 st.write("Upload an image or draw a digit below 👇")

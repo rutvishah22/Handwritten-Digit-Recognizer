@@ -1,5 +1,6 @@
-streamlit
-tensorflow==2.20.0
-pillow
-numpy
+streamlit>=1.38.0
 streamlit-drawable-canvas
+tensorflow>=2.13.0,<2.21.0
+numpy
+pillow
+
